@@ -1,6 +1,6 @@
 # Ithaca Landing Page
 ## Credit Opportunities With Good Approval Odds
-#### Explore it: http://muhammadshiraz.com/nexusuae/
+#### Explore it: https://muhammadshiraz.github.io/ithaca-landing-page/
 
 ### Preloader
 
