@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-### Mobile Version
+	<h3>Mobile Version</h3>
 </p>
 
 <p align="center">
