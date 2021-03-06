@@ -1,0 +1,15 @@
+/**
+ * Rating SASS
+ * =================================
+ */
+ .reviews_wrap {
+    display: flex;            
+    justify-content: flex-end;
+    .fa-star {
+        color: $cyan-color;
+        cursor: pointer;             
+    }
+    .rev_txt {
+        margin-left: 11.489px;
+    }
+ }

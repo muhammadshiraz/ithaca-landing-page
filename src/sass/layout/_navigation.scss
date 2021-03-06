@@ -1,0 +1,36 @@
+/**
+ * Navigation SASS
+ * =================================
+ */
+
+ nav {     
+    padding: 0;
+    margin-top: 54px;
+    float: left;
+    width: 100%;
+    ul {
+        text-align: center;
+        display: flex;
+        width: 100%;
+        li {
+            border: solid 1px $edeff0;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+            min-height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:nth-child(2), &:nth-child(3) {
+                border-left: 0;
+            }
+            a {
+                text-decoration: none;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+ }

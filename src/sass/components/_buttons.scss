@@ -1,0 +1,63 @@
+/**
+ * Buttons SASS
+ * =================================
+ */
+ #veryGood_Btn {
+    padding: 8.482px 14.638px;
+    border-radius: 100px;
+    transition: 0.3s;
+    border: 0;
+    &:focus {
+        outline: 0;
+    }
+    &:hover {
+        background-color: $dodger-color;
+        transition: 0.3s;
+    }
+ }
+ #applyNow_Btn {
+    width: 100%;
+    border-radius: 5.381px;
+    -webkit-transition: 0.3s;
+    border: 0;
+    transition: 0.3s;
+    padding: 13.807px 0;
+    &:focus {
+        outline: 0;
+    }
+    &:hover {
+        background-color: $cyan-color;
+        transition: 0.3s;
+    }
+ }
+ #showmore_Btn {
+    top: -40px;
+    position: relative;
+    left: 348px;
+    @media #{$small-mobile} {
+        margin-left: 145px;
+        left: auto;
+    }
+    @media #{$l-mobile} {
+        margin-left: 55px;
+        top: -42px;
+        left: auto;
+    }
+    @media #{$tablet} {
+    }
+ }
+ #showLess_Btn {
+    display:none;
+    margin-bottom: 20px;
+}
+ #showmore_Btn,
+ #showLess_Btn {
+    border: 0;
+    background: transparent;
+    &:focus {
+        outline: 0;
+    }
+    &:hover {
+        color: $black-color;
+    }
+ }

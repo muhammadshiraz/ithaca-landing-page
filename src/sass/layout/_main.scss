@@ -1,0 +1,181 @@
+/**
+ * Main SASS
+ * =================================
+ */
+ .main-content {
+    float: left;
+    width: 100%;
+    padding: 61.731px 56.173px 0 56.173px;
+    @media #{$mobile} {
+        padding: 35.731px 0 0 0;
+    }
+    @media #{$tablet} {
+        padding: 35.731px 0 0 0;
+    }
+    h4 {
+        @media #{$mobile} {
+            line-height: 25px;
+        }
+         @media #{$tablet} {
+            line-height: 25px;
+        }
+    }
+    h3 {
+        @media #{$mobile} {
+            padding: 0 16.171px;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        @media #{$tablet} {
+            padding: 0 16.171px;
+            line-height: 25px;
+            font-size: 18px;
+        }
+    }
+     .masterCard_Box {
+         margin-top: 30.486px;
+         padding: 47.929px 40.929px;
+         margin-bottom: 55.439px;
+         @media #{$mobile} {
+            margin-bottom: 0;
+            padding: 20.929px 25.929px;
+        }
+         @media #{$tablet} {
+            margin-bottom: 0;
+            padding: 20.929px 25.929px;
+        }
+         #Firstrow {
+             margin-bottom: 27.348px;
+             display: flex;             
+             .column-2 {
+                 margin-left: auto;
+             }
+             @media #{$mobile} {
+                margin-bottom: 15.348px;
+            }
+             @media #{$tablet} {
+                margin-bottom: 15.348px;
+            }
+         }
+         #Secondrow {
+            display: flex;
+            @media #{$mobile} {
+                display: grid;
+            }
+            @media #{$tablet} {
+                display: flex;
+            }
+            .mobile-screen {
+                @media #{$mobile} {
+                    display: block;
+                    padding: 0;
+                }
+                @media #{$tablet} {
+                    display: none;
+                }
+                @media #{$desktop} {
+                    display: none;
+                }
+            }
+            .column-1 {
+                .lg-screen {
+                    @media #{$mobile} {
+                        display: none;
+                    }
+                }                
+                @media #{$tablet} {
+                    width: 40%;
+                }
+            }
+            .column-2 {
+                padding-left: 38px;
+                @media #{$mobile} {
+                    padding-left: 0;
+                }
+                @media #{$tablet} {
+                    padding-left: 15px;
+                }
+                @media #{$tablet} {
+                    width: 80%;
+                }
+            }
+         }
+         .visacard_Box {
+             display: flex;
+             margin-bottom: 23.904px;
+             justify-content: left;
+             align-items: center;         
+             .Approval_Odds {
+                 text-align: center;
+                 margin-left: 20.684px;
+                @media #{$mobile} {
+                    margin: 0 auto;
+                    padding: 11.666px;
+                }
+                @media #{$tablet} {
+                    margin: 0 auto;
+                    padding: 14.666px;
+                }                
+                 span {
+                    line-height: 22.62px;
+                    display: block;
+                    margin-bottom: 12.88px;
+                 }
+             }
+             .visaCard_wrap {
+                @media #{$mobile} {
+                    width: 45%;
+                }
+                 @media #{$tablet} {
+                    width: 45%;
+                }
+                .visaCard {
+                    @media #{$mobile} {
+                        margin: 0 auto;
+                        padding: 8px 0;
+                        width: 100%;
+                    }
+                     @media #{$tablet} {
+                        margin: 0 auto;
+                        padding: 8px 0;
+                        width: 100%;
+                    }
+                 }
+             }             
+         }
+         .Line_Separator {
+            height: 1px;
+            margin: 34.594px 0 23.25px 0;
+            width: 100%;
+         }
+         .masterCard_Content {
+             ul {
+                 position: relative;
+                 li {
+                    list-style: disc;
+                    margin-bottom: 21.447px;
+                    display:none;
+                    @media #{$mobile} {
+                        line-height: 25px;
+                    }
+                     @media #{$tablet} {
+                        line-height: 25px;
+                    }
+                 }
+             }
+             @media #{$mobile} {
+                margin-bottom: 0;
+                padding: 0 10px;
+                margin-top: 0px;
+            }
+             @media #{$tablet} {
+                margin-bottom: 0;
+                padding: 0 10px;
+                margin-top: 30px;
+            }
+         }
+     }
+     a {
+         text-decoration: none;
+     }
+ }

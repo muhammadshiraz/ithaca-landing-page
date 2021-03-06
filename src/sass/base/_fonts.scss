@@ -1,0 +1,25 @@
+/**
+ * Fonts SASS
+ * =================================
+ */
+
+@font-face {
+    font-family: $ProximaNova;
+    src: url('../fonts/ProximaNovaAltRegular-webfont.eot');
+    src: url('../fonts/ProximaNovaAltRegular-webfont.eot') format('embedded-opentype'),
+         url('../fonts/ProximaNovaAltRegular-webfont.woff') format('woff'),
+         url('../fonts/ProximaNovaAltRegular-webfont.ttf') format('truetype'),
+         url('../fonts/ProximaNovaAltRegular-webfont.svg#proxima_nova_altregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: $ProximaNova-Bold;
+    src: url("../fonts/Proxima-Nova-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: $ProximaNova-Extrabold;
+    src: url("../fonts/ProximaNova-Extrabold.otf") format("opentype");
+}
