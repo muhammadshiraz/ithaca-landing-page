@@ -14,9 +14,7 @@
   <img src="etc/desktop_version.jpg">
 </p>
 
-<p align="center">
-	<h3>Mobile Version</h3>
-</p>
+<h3 align="center">Mobile Version</h3>
 
 <p align="center">
   <img src="etc/mobile_version.jpg">
